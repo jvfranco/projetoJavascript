@@ -1,0 +1,110 @@
+header {
+    background: slateblue;
+    color: white;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    width: 15%;
+}
+
+#nome {
+    width: 100%;
+}
+
+input, select {
+    height: 35px;
+    width: 100%;
+}
+
+.invisivel {
+    display: none;
+}
+
+.button {
+    background: blue;
+    color: white;
+    font-size: 1em;
+    width: 10%;
+    height: 3em;
+    border: none;
+    border-radius: 10px;
+    transition: all 400ms ease;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+.btn-conf {
+    margin-top: 2em;
+    position: relative;
+}
+
+footer {
+    background: slateblue;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
